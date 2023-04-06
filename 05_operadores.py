@@ -18,8 +18,8 @@ multi = 10 * 3
 print(multi)
 division = 10 / 3
 print(division)
-residuo = 10 % 3
-print(residuo)
+residuo = 10 % 2
+print('el residuo es', residuo)
 entero_division = 10 // 3
 print(entero_division)
 exponenciacion = 10**3
