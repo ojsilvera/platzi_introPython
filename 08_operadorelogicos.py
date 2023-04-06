@@ -26,4 +26,22 @@ role = input('Digita rl rol => ')
 
 print(role == 'admin' or role == 'seller')
 
+# not
+print('*' * 10)
+print('NOT')
+print('*' * 10)
+print(not True)
+print(not False)
 
+print('NOT-AND')
+print('not True and True =>', not (True and True))
+print('not True and False =>', not (True and False))
+print('not False and True =>', not (False and True))
+print('not False and False =>', not (False and False))
+
+print(not(10 > 5 and 2 < 8))
+
+stock = input('digite cant de unidades => ')
+stock = int(stock)
+
+print(not(stock >= 100 and stock <= 1000))
