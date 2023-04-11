@@ -1,9 +1,11 @@
 x = 3.3
 print(x)
 y = 1.1 + 2.2
+#genera un numero con precision decimal por eso no son iguales
 print(y)
 print(x == y)
 y_str = format(y, ".2g")
+#la expresion anterior establece una precion decimal de dos digitos
 print(type(y_str), y_str)
 # la conversion de str a numero es con float
 # porque es un numero decimal, si fuera base
