@@ -18,4 +18,9 @@ elif user_option == 'piedra':
     print('computer win')
 
 elif user_option == 'papel':
-  print('computer win')
+  if computer_option == 'tijera':
+    print('tijera gana ha papel')
+    print('computer win')
+  else:
+    print('piedra pierde con papel')
+    print('user win')
