@@ -24,3 +24,11 @@ elif user_option == 'papel':
   else:
     print('piedra pierde con papel')
     print('user win')
+
+elif user_option == 'tijera':
+  if computer_option == 'piedra':
+    print('piedra gana ha tijera')
+    print('computer win')
+  else:
+    print('papel pierde con tijera')
+    print('user win')
